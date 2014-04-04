@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1553CE1718ED8815003C979E /* DataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1553CE1618ED8815003C979E /* DataClass.m */; };
 		15E5F78618E2A3BC00957059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E5F78518E2A3BC00957059 /* Foundation.framework */; };
 		15E5F78818E2A3BC00957059 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E5F78718E2A3BC00957059 /* CoreGraphics.framework */; };
 		15E5F78A18E2A3BC00957059 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E5F78918E2A3BC00957059 /* UIKit.framework */; };
@@ -21,6 +22,14 @@
 		15E5F7A718E2A3BC00957059 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E5F78918E2A3BC00957059 /* UIKit.framework */; };
 		15E5F7AF18E2A3BC00957059 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15E5F7AD18E2A3BC00957059 /* InfoPlist.strings */; };
 		15E5F7B118E2A3BC00957059 /* LocateMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5F7B018E2A3BC00957059 /* LocateMeTests.m */; };
+		15E5F7BB18E2A44E00957059 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E5F7BA18E2A44E00957059 /* MapKit.framework */; };
+		15E5F7BE18E2B20E00957059 /* latLong.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5F7BD18E2B20E00957059 /* latLong.m */; };
+		15E5F7C018E2B27700957059 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E5F7BF18E2B27700957059 /* CoreLocation.framework */; };
+		15E5F7C318E2BE0E00957059 /* latLongVIewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E5F7C218E2BE0E00957059 /* latLongVIewControllerViewController.m */; };
+		15E5F7C518E2D4CD00957059 /* map_marker-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E5F7C418E2D4CD00957059 /* map_marker-26.png */; };
+		15E5F7C718E2D4DE00957059 /* marker-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E5F7C618E2D4DE00957059 /* marker-26.png */; };
+		15E5F7CB18E2DA2B00957059 /* oie_oie_canvas.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E5F7CA18E2DA2B00957059 /* oie_oie_canvas.png */; };
+		15E5F7CF18E2E17B00957059 /* oie_png.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E5F7CE18E2E17B00957059 /* oie_png.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1553CE1518ED8815003C979E /* DataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataClass.h; sourceTree = "<group>"; };
+		1553CE1618ED8815003C979E /* DataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataClass.m; sourceTree = "<group>"; };
 		15E5F78218E2A3BC00957059 /* LocateMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocateMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E5F78518E2A3BC00957059 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15E5F78718E2A3BC00957059 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,16 @@
 		15E5F7AC18E2A3BC00957059 /* LocateMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocateMeTests-Info.plist"; sourceTree = "<group>"; };
 		15E5F7AE18E2A3BC00957059 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15E5F7B018E2A3BC00957059 /* LocateMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocateMeTests.m; sourceTree = "<group>"; };
+		15E5F7BA18E2A44E00957059 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		15E5F7BC18E2B20E00957059 /* latLong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = latLong.h; sourceTree = "<group>"; };
+		15E5F7BD18E2B20E00957059 /* latLong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = latLong.m; sourceTree = "<group>"; };
+		15E5F7BF18E2B27700957059 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		15E5F7C118E2BE0E00957059 /* latLongVIewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = latLongVIewControllerViewController.h; sourceTree = "<group>"; };
+		15E5F7C218E2BE0E00957059 /* latLongVIewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = latLongVIewControllerViewController.m; sourceTree = "<group>"; };
+		15E5F7C418E2D4CD00957059 /* map_marker-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_marker-26.png"; sourceTree = "<group>"; };
+		15E5F7C618E2D4DE00957059 /* marker-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker-26.png"; sourceTree = "<group>"; };
+		15E5F7CA18E2DA2B00957059 /* oie_oie_canvas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oie_oie_canvas.png; sourceTree = "<group>"; };
+		15E5F7CE18E2E17B00957059 /* oie_png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oie_png.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E5F7C018E2B27700957059 /* CoreLocation.framework in Frameworks */,
+				15E5F7BB18E2A44E00957059 /* MapKit.framework in Frameworks */,
 				15E5F78818E2A3BC00957059 /* CoreGraphics.framework in Frameworks */,
 				15E5F78A18E2A3BC00957059 /* UIKit.framework in Frameworks */,
 				15E5F78618E2A3BC00957059 /* Foundation.framework in Frameworks */,
@@ -79,6 +102,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15257B6C18E445A40087DE6C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				15E5F7CA18E2DA2B00957059 /* oie_oie_canvas.png */,
+				15E5F7CE18E2E17B00957059 /* oie_png.png */,
+				15E5F7C618E2D4DE00957059 /* marker-26.png */,
+				15E5F7C418E2D4CD00957059 /* map_marker-26.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		15E5F77918E2A3BC00957059 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +135,8 @@
 		15E5F78418E2A3BC00957059 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15E5F7BF18E2B27700957059 /* CoreLocation.framework */,
+				15E5F7BA18E2A44E00957059 /* MapKit.framework */,
 				15E5F78518E2A3BC00957059 /* Foundation.framework */,
 				15E5F78718E2A3BC00957059 /* CoreGraphics.framework */,
 				15E5F78918E2A3BC00957059 /* UIKit.framework */,
@@ -115,8 +151,15 @@
 				15E5F79418E2A3BC00957059 /* AppDelegate.h */,
 				15E5F79518E2A3BC00957059 /* AppDelegate.m */,
 				15E5F79718E2A3BC00957059 /* Main.storyboard */,
+				15E5F7C118E2BE0E00957059 /* latLongVIewControllerViewController.h */,
+				15E5F7C218E2BE0E00957059 /* latLongVIewControllerViewController.m */,
+				1553CE1518ED8815003C979E /* DataClass.h */,
+				1553CE1618ED8815003C979E /* DataClass.m */,
+				15E5F7BC18E2B20E00957059 /* latLong.h */,
+				15E5F7BD18E2B20E00957059 /* latLong.m */,
 				15E5F79A18E2A3BC00957059 /* ViewController.h */,
 				15E5F79B18E2A3BC00957059 /* ViewController.m */,
+				15257B6C18E445A40087DE6C /* Images */,
 				15E5F79D18E2A3BC00957059 /* Images.xcassets */,
 				15E5F78C18E2A3BC00957059 /* Supporting Files */,
 			);
@@ -228,9 +271,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E5F7C518E2D4CD00957059 /* map_marker-26.png in Resources */,
+				15E5F7CB18E2DA2B00957059 /* oie_oie_canvas.png in Resources */,
 				15E5F79E18E2A3BC00957059 /* Images.xcassets in Resources */,
 				15E5F79018E2A3BC00957059 /* InfoPlist.strings in Resources */,
 				15E5F79918E2A3BC00957059 /* Main.storyboard in Resources */,
+				15E5F7C718E2D4DE00957059 /* marker-26.png in Resources */,
+				15E5F7CF18E2E17B00957059 /* oie_png.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1553CE1718ED8815003C979E /* DataClass.m in Sources */,
 				15E5F79C18E2A3BC00957059 /* ViewController.m in Sources */,
+				15E5F7BE18E2B20E00957059 /* latLong.m in Sources */,
 				15E5F79618E2A3BC00957059 /* AppDelegate.m in Sources */,
 				15E5F79218E2A3BC00957059 /* main.m in Sources */,
+				15E5F7C318E2BE0E00957059 /* latLongVIewControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +431,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocateMe/LocateMe-Prefix.pch";
 				INFOPLIST_FILE = "LocateMe/LocateMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +445,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocateMe/LocateMe-Prefix.pch";
 				INFOPLIST_FILE = "LocateMe/LocateMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +512,7 @@
 				15E5F7B618E2A3BC00957059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15E5F7B718E2A3BC00957059 /* Build configuration list for PBXNativeTarget "LocateMeTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +521,7 @@
 				15E5F7B918E2A3BC00957059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
